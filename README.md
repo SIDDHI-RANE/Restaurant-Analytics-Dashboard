@@ -1,12 +1,40 @@
-# React + Vite
+# 🍴 Restaurant Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack dashboard to analyze restaurant order trends.  
+It visualizes **daily orders, revenue, average order value (AOV), peak hours, and top restaurants** using interactive charts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 📊 Daily Orders & Revenue Trends  
+- 💰 Average Order Value (AOV) per day  
+- ⏰ Peak Order Hour identification  
+- 🏆 Top 3 Restaurants by Revenue  
+- 🔍 Restaurant & Date Range Filters  
+- 🎨 Interactive charts built with **Recharts**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+restaurant-analytics-dashboard/
+│── backend/ # Backend (optional, if using API instead of JSON)
+│── frontend/ # React frontend
+│ ├── public/data/ # Static JSON files (orders.json, restaurants.json)
+│ ├── src/
+│ │ ├── App.js # Main dashboard code
+│ │ ├── index.js
+│ │ └── ...
+│── README.md
+
+## 🛠️ Setup Instructions
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/yourusername/restaurant-analytics-dashboard.git
+cd restaurant-analytics-dashboard
+
+
+#Install frontend dependencies
+cd frontend
+npm install
+App will start on 👉 http://localhost:3000
